@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Light Box</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <body>
+    <div class="row">
+        <h1>Gallery</h1>
+        <div class="gallery">
+            <img src="images/1.jpg" onclick="lightBox(this)"/>
+            <img src="images/12.jpg" onclick="lightBox(this)"/>
+            <img src="images/13.jpg" onclick="lightBox(this)"/>
+            <img src="images/3.jpg" onclick="lightBox(this)"/>
+            <img src="images/9.jpg" onclick="lightBox(this)"/>
+            <img src="images/12.jpg" onclick="lightBox(this)"/>
+            <img src="images/13.jpg" onclick="lightBox(this)"/>
+            <img src="images/3.jpg" onclick="lightBox(this)"/>
+            <img src="images/9.jpg" onclick="lightBox(this)"/>
+        </div>
+    </div>
+    <div class="lightbox" id="lightbox">
+        <span class="close" id="close">&times;</span>
+        <img src="images/1.jpg" id="lightbox-image"/> 
+    </div>
+    </body>
+    <script src="js/custom.js"></script>
+</html>
